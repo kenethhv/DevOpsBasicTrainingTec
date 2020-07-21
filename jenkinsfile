@@ -4,7 +4,7 @@ pipeline {
     //Determine in which node will the pipeline be executed
     agent any
      
-    stage {
+    stages {
         stage('before') {
             steps {
                 sh 'python3 --version'
